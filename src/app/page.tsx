@@ -1,5 +1,8 @@
 import Navbar from "@/components/NavBar";
 import bg from '../assets/images/japan-cupyb43e8vl4w2n7.jpg';
+import Image from 'next/image';
+import DoctorProfile from "@/components/DoctorProfile";
+
 
 export default function Home() {
   return (
@@ -18,11 +21,9 @@ export default function Home() {
         }}
       >
       </div>
-      <div className="pt-16 pl-16">
-        <h1 className="text-2xl">Top Rated Doctors Near You</h1>
+      <div className="pt-8 pl-8">
+        <DoctorProfile />
       </div>
-
-
     </>
   );
 }
